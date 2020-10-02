@@ -13,6 +13,7 @@
   
   ### Story:
   - [The Machine that was thought to be unbreakable. The Enigma Machine Explained](https://youtu.be/ASfAPOiq_eQ)
+  - [Machine Learning Engineers Will Not Exist In 10 Years. But why?](https://towardsdatascience.com/machine-learning-engineers-will-not-exist-in-10-years-c9cbbf4472f3)
   
 ### Theory
 - [Turing Test Explained](https://towardsdatascience.com/the-history-of-artificial-intelligence-the-turing-test-c1d6777d2970)
