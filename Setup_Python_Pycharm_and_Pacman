@@ -9,6 +9,8 @@ Go to python27 folder
 Take the path of the folder where python.exe is found and add it to your system path variable. In my case this path is (C:\Python27) 
 Control panel->System and Security->System->Advanced system settings->Environment variables
 
+For the command line setup.
+
 4) We will create now a virtual environment for our laboratory
 The virtual environment is verry usefull because will create an isolated python environment that will serve only for this lab.
 
@@ -48,10 +50,17 @@ Then do the following 4 steps and try again:
     Copy the folder tk8.5 from C:/Python27/tcl
     Paste it to the newly created C:/Python27/lib/tcl8.5 directory.
 
-5)
-Solve Exercise 1.1 from lab 
-Solve Exercise 1.2 from lab
+For the PyCharm setup:
+5) Open PyCharm. Then select File->Open->Select the folder search (folder which contains the Pacman project)
+Be sure that the PyCharm uses the Python2.7 interpreter.
+You check that from File->Settings->Project->Project Interpreter-> Select Python 2.7
 
+You run the program by going in the pacman.py. Right click on the file and select RUN.
+
+
+SETUP DONE!
+
+6)
 Run the examples in cmd and in PyCharm.
 For PyCharm you pass parameters on the run in the following way:
 From the PyCharm menu select Run-> Edit Configurations->Configuration->Parameters
@@ -59,5 +68,11 @@ Here in the Parameters tab, if you type on the cmd:
 > python pacman.py -l tinyMaze -p GoWestAgent
 You will replace -l with --layout and -p with --pacman and type in the Parameters box:
 --layout testMaze --pacman GoWestAgent
+
+
+
+Run Exercise 1.1 from lab 
+Run Exercise 1.2 from lab
+
 
 Done! Congrats!
