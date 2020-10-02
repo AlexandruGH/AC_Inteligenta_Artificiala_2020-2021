@@ -1,0 +1,58 @@
+1) Install Pycharm, then activate with the educational package. You need to use the @student.utcluj.ro email and login here with sinu credentials. (https://intranet.utcluj.ro/login)
+
+2) https://www.python.org/downloads/release/python-2716/
+
+
+3) Go to python27 folder
+Take the path of the folder where python.exe is found and add it to your system path variable. In my case this path is (C:\Python27) 
+Control panel->System and Security->System->Advanced system settings->Environment variables
+
+4) We will create now a virtual environment for our laboratory
+The virtual environment is verry usefull because will create an isolated python environment that will serve only for this lab.
+
+4.1) Create a folder especially for this lab.
+Download the PACMAN code from here: https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/release/search/v1/001/search.zip 
+and unzip it in your new folder for the lab. It should be named generically "search".
+
+
+4.2) Open a command line tab in this folder i.e. cmd 
+You can simply click on the folder path and type cmd and then press enter. It will open automatically without navigation.
+
+Type in cmd the following (> represents a command line)
+
+> py -2 -m pip install virtualenv    
+> py -2 -m virtualenv iai
+>iai\Scripts\activate
+
+# You should now see (iai) before the path
+
+> python --version 
+Python 2.7.17
+
+
+4.3) Now from the same cmd, navigate in the search folder and run pacman.py by typing:
+
+> python pacman.py
+
+
+4.4) If you received a Tcl error that says something like:
+
+"This probably means that Tcl wasn't installed properly."
+
+Then do the following 4 steps and try again:
+
+    Copy the folder tcl8.5 from C:/Python27/tcl
+    Paste it to the C:/Python27/lib/ directory.
+    Copy the folder tk8.5 from C:/Python27/tcl
+    Paste it to the newly created C:/Python27/lib/tcl8.5 directory.
+
+Solve Exercise 1.1 from lab 
+Solve Exercise 1.2 from lab
+
+Run the examples in cmd and in PyCharm.
+For PyCharm you pass parameters on the run in the following way:
+From the PyCharm menu select Run-> Edit Configurations->Configuration->Parameters
+Here in the Parameters tab, if you type on the cmd:
+> python pacman.py -l tinyMaze -p GoWestAgent
+You will replace -l with --layout and -p with --pacman and type in the Parameters box:
+--layout testMaze --pacman GoWestAgent
