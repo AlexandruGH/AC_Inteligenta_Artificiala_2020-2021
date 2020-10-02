@@ -20,6 +20,7 @@
 - [BFS and DFS in the context of a maze viewed as a graph](https://medium.com/tebs-lab/breadth-first-search-and-depth-first-search-4310f3bf8416)
 
 ### Practice
+-  ![Setup_Python_PyCharm_Pacman](Setup_Python_Pycharm_and_Pacman)
 - [Python 2.7 tutorial Lesson 1-11](https://www.youtube.com/playlist?list=PLA175E8A1816CD64B)
 - [Git bash tutorial if necessary](https://www.codecademy.com/learn/learn-git)
-- 
+
