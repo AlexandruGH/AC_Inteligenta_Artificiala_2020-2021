@@ -1,9 +1,11 @@
+These steps are mainly for Windows, while for Linux the steps are easier.
+
 1) Install Pycharm, then activate with the educational package. You need to use the @student.utcluj.ro email and login here with sinu credentials. (https://intranet.utcluj.ro/login)
 
-2) https://www.python.org/downloads/release/python-2716/
+2) Install Python 2.7 (https://www.python.org/downloads/release/python-2716/)
 
-
-3) Go to python27 folder
+3) Add python to Environment variables
+Go to python27 folder
 Take the path of the folder where python.exe is found and add it to your system path variable. In my case this path is (C:\Python27) 
 Control panel->System and Security->System->Advanced system settings->Environment variables
 
@@ -46,6 +48,7 @@ Then do the following 4 steps and try again:
     Copy the folder tk8.5 from C:/Python27/tcl
     Paste it to the newly created C:/Python27/lib/tcl8.5 directory.
 
+5)
 Solve Exercise 1.1 from lab 
 Solve Exercise 1.2 from lab
 
@@ -56,3 +59,5 @@ Here in the Parameters tab, if you type on the cmd:
 > python pacman.py -l tinyMaze -p GoWestAgent
 You will replace -l with --layout and -p with --pacman and type in the Parameters box:
 --layout testMaze --pacman GoWestAgent
+
+Done! Congrats!
