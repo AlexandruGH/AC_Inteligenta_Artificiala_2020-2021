@@ -25,3 +25,8 @@
 - [Python 2.7 tutorial Lesson 1-11](https://www.youtube.com/playlist?list=PLA175E8A1816CD64B)
 - [Git bash tutorial if necessary](https://www.codecademy.com/learn/learn-git)
 
+## Lab 2
+
+### Story:
+-[Dna. Rada Mihalcea. Povestea unei absolvente de Calculatoare UTCN care a ajuns în topul geniilor din SUA.](https://adevarul.ro/locale/cluj-napoca/exclusiv-povestea-romancei-l-a-cucerit-peobama-ajuns-rada-mihalcea-topul-geniilor-sua-1_5413f8020d133766a818400f/index.html)
+  
